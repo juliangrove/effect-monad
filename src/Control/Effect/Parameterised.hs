@@ -6,7 +6,7 @@
 -- (see 'Parameterised Notions of Computing' JFP 2009)
 -- also defined in Control.Monad.Indexed (category-extras)
 
-module Control.Effect.Parameterised ((>>), PMonad(..), fail, ifThenElse) where
+module Control.Effect.Parameterised ((>>), PMonad(..), Control.Effect.Parameterized.fail, ifThenElse) where
 
 -- Bye Monads... as we know them
 import Prelude hiding (Monad(..))
