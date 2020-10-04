@@ -4,7 +4,7 @@
 
 module Control.Effect.Parameterised.ExtensibleState
           (State(..), Get, Put, Update, get, put, modify
-          , PMonad(..), (>>), ifThenElse, fail) where
+          , PMonad(..), (>>), ifThenElse, Control.Effect.Parameterised.fail) where
 
 import Prelude hiding (Monad(..))
 import Control.Effect.Parameterised
