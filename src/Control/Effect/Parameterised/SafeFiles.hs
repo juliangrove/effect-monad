@@ -12,7 +12,7 @@
 module Control.Effect.Parameterised.SafeFiles
          (openFile, hGetChar, hPutChar, hClose, hIsEOF, runSafeFiles
          , SafeFiles, SafeHandle, St
-         , PMonad(..), (>>), ifThenElse, Contro.Effect.Parameterised.fail) where
+         , PMonad(..), (>>), ifThenElse, Control.Effect.Parameterised.fail) where
 
 -- Bye Monads... as we know them
 import Prelude hiding (Monad(..))
